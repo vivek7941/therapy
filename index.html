@@ -926,14 +926,14 @@ html{scroll-behavior:smooth}section[id],article[id],#contact-form{scroll-margin-
 </style><style id="affirmation-strip-loop-fix">
 /* Equal, non-shrinking groups include their trailing space in the loop width. */
 .marquee-shell{position:relative;max-width:100%;overflow:hidden;padding-block:1rem}
-.marquee-shell .marquee-track{display:flex;align-items:stretch;width:max-content;max-width:none;gap:0;white-space:normal;animation:affirmation-loop 100s linear infinite;will-change:transform}
+.marquee-shell .marquee-track{display:flex;align-items:stretch;width:max-content;max-width:none;gap:0;white-space:normal;animation:affirmation-loop 40s linear infinite;will-change:transform}
 .marquee-shell .affirmation-group{display:flex;flex:0 0 auto;align-items:center;gap:3rem;padding-right:3rem}
 .marquee-shell .affirmation-group>span{display:flex;flex:0 0 auto;align-items:center;gap:3rem;white-space:nowrap;line-height:1.45;padding-block:.2em}
 .marquee-shell .spark{flex:none;line-height:1}
 @keyframes affirmation-loop{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
 @media(hover:hover){.marquee-shell:hover .marquee-track{animation-play-state:paused}}
 @media(max-width:767px){
- .marquee-shell .marquee-track{font-size:1.4rem;animation-duration:110s}
+ .marquee-shell .marquee-track{font-size:1.4rem;animation-duration:40s}
  .marquee-shell .affirmation-group{gap:1.5rem;padding-right:1.5rem}
  .marquee-shell .affirmation-group>span{box-sizing:border-box;width:min(80vw,26rem);white-space:normal;gap:1rem;line-height:1.5}
  .marquee-shell .spark{font-size:1rem}
